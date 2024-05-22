@@ -52,3 +52,11 @@ func (p *Program) TokenLiteral() string {
 		return ""
 	}
 }
+
+type ExpressionStatement struct {
+	Token      token.Token
+	Expression Expression
+}
+
+func (es *ExpressionStatement) statementNode()       {}
+func (es *ExpressionStatement) TokenLiteral() string { return es.Token.Literal }
