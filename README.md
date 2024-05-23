@@ -7,3 +7,5 @@ Learned: Something about syntax free grammars or something idk Noam Chomskey is 
 
 Pratt Parsing is good for parsing expressions - things that are not best represented by grammar rules,
 but rather by precidence.
+
+12:10 AM -> finished adding functions to parser for expression parsing (page 53 - Identifers)
